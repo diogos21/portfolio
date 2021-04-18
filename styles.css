@@ -525,14 +525,16 @@ header{
 
 .orcamento-wrapper{
     width: 60%;
-    height: 80%;
+    height: 75%;
     background-color: #ffffff99;
     border-radius: 10px;
     box-shadow: 0 0.1rem 0.3rem rgba(0,0,0, .5);
 }
 
 .sessao-orcamento h1{ 
-    left: 2rem;
+    position: absolute;
+    top: 179rem;
+    right: 40rem;
     background: #7F00FF; 
     background: -webkit-linear-gradient(to right, #E100FF, #7F00FF); 
     background: linear-gradient(to right, #E100FF, #7F00FF);
@@ -550,7 +552,7 @@ header{
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 2rem;
-    row-gap: 2rem;
+    row-gap: 3rem;
 }
 
 .sessao-orcamento label{
